@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Space+Grotesk:wght@500&display=swap');
+
+* {
+  font-family: 'Archivo';
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.navbar {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.section1-container {
+  background-image: url('./assets/img/background.jpg');
+  height: 70vh;
+  width: 99vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section1-itens {
+  height: 70vh;
+  padding-top: 10rem;
+  padding-left: 5rem;
+}
+
+.section1-images {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.section1-elements {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.main-text {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+}
+
+.main-text h2 {
+  font-weight: 100;
+  max-width: 50vw;
+  text-align: center;
+}
+
+.main-cards {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {}
+
+.card img {
+  background-color: #b1bace;
+}
